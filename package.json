@@ -1,0 +1,24 @@
+{
+  "name": "ethirium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:0xfinder/et-hi-rium.git",
+  "author": "finder <0xfinder@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "dist/index.js",
+    "start": "node dist/index.js",
+    "dev2": "nodemon --exec ts-node src/index.ts",
+    "start2": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^5.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
